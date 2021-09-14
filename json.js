@@ -29,4 +29,17 @@ let JObject =
     }
 }]`;
 
+// Mostrar tudo
 console.log(JSON.parse(jArray), JSON.parse(JObject));
+
+// Navegação aprofundada
+let JO = JSON.parse(JObject);
+//
+// Exemplos:
+//
+// Qual o nome do primeiro jogo favorito?
+console.log(JO[0].jogos.favoritos[0].nome);
+// Qual as plataformas do ultimo jogo favorito?
+console.log(JO[0].jogos.favoritos[2].plataforma);
+// qual o ano do jogo do meio?
+console.log(JO[0].jogos.favoritos[1].ano);
