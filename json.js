@@ -1,18 +1,18 @@
 let jArray =
 `[{
-    "Jogos_favoritos": ["sonic the hedgehog", "crash bandicoot", "burnout dominator"]
+    "jogos_favoritos": ["sonic the hedgehog", "crash bandicoot", "burnout dominator"]
 }]`;
 
 let JObject =
 `[{
-    "Jogos": 
+    "jogos": 
     {
-        "classicos": 
+        "favoritos": 
         [{
             "nome": "sonic the hedgehog",
             "ano": 1991,
             "multiplayer": false,
-            "plataforma": ["Sega Genesis","Sega Master System"] 
+            "plataforma": ["sega genesis","sega master system"] 
         }, 
         {
             "nome": "crash bandicoot",
