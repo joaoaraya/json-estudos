@@ -7,18 +7,18 @@ let JObject =
 `[{
     "Jogos": 
     {
-        "Classicos": 
+        "classicos": 
         [{
             "nome": "sonic the hedgehog",
             "ano": 1991,
             "multiplayer": false,
-            "plataforma": ["sega","nintendo"] 
+            "plataforma": ["Sega Genesis","Sega Master System"] 
         }, 
         {
             "nome": "crash bandicoot",
             "ano": 1996,
             "multiplayer": false,
-            "plataforma" : ["nintendo", "play station", "xbox"]
+            "plataforma" : "play station"
         },
         {
             "nome": "burnout dominator",
